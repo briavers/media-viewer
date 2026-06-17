@@ -1,0 +1,19 @@
+{
+  "id": "media-viewer",
+  "title": "Media Viewer",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>A simple module which adds an option to show media based on url's.</p>",
+  "flags": {
+    "canUpload": true
+  },
+  "scripts": [
+    "scripts/viewer.js"
+  ],
+  "styles": [
+    "styles/media-viewer.css"
+  ]
+}
