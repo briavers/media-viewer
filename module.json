@@ -1,19 +1,31 @@
 {
   "id": "media-viewer",
   "title": "Media Viewer",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "14",
-    "verified": "14"
-  },
   "description": "<p>A simple module which adds an option to show media based on url's.</p>",
-  "flags": {
-    "canUpload": true
+  "version": "#{VERSION}#",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": 14,
+    "verified": 14
+  },
+  "authors": [
+    {
+      "name": "Brian Verschoore",
+      "url": "https://github.com/briavers",
+    }
+  ],
+  "relationships": {
+    "systems": [],
+    "requires": []
   },
   "scripts": [
     "scripts/viewer.js"
   ],
   "styles": [
     "styles/media-viewer.css"
-  ]
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE"
 }
